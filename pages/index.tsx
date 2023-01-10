@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 import type { NextPage } from "next";
 import { selectAuthState, setAuthState } from "../store/authSlice";
 import { useDispatch, useSelector } from "react-redux";
-import { wrapper } from "../store/store";
+import { wrapper } from "store/store";
 
 const inter = Inter({ subsets: ['latin'] })
 
